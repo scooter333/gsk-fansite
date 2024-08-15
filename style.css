@@ -1,0 +1,53 @@
+body {
+   background-color: beige;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+   color: gray;
+   max-width: 980px;
+   text-align: center;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+   color: darkgray;
+   max-width: 980px;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.logo {
+   width: auto;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.standings {
+  background-color: gray;
+  border: 1px solid black;
+  color: yellow;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-width: 980px;
+  text-align: center;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bad {
+  color: #C04000;
+}
+
+.good {
+  color: limegreen;
+}
+

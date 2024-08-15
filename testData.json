@@ -1,0 +1,110 @@
+{
+    "action_name": "get_site_calendar_events",
+    "events": [
+        {
+            "id": 433509,
+            "title": "Lick my Cleat (3) vs Faces Loaded (6)",
+            "allDay": false,
+            "start": "2024-07-25T18:45:00",
+            "end": "2024-07-25T19:45:00",
+            "event_type": "LeagueGame",
+            "event_program": "Summer '24 Co-Ed 10v10 Kickball",
+            "event_season": "",
+            "event_category": "4226",
+            "event_teams": [
+                36442,
+                36381
+            ],
+            "resourceIds": [
+                "L4634"
+            ],
+            "color": "#FFA500",
+            "textColor": "#000000",
+            "contents": "<p>Season - <b>Summer '24 Co-Ed 10v10 Kickball</b></p><p>Division - <b>Summer '24 Thursdays - Summer '24 Co-Ed 10v10 Kickball</b></p><p>Location - <b>Mosswood Park Field 2</b></p>"
+        },
+        {
+            "id": 433510,
+            "title": "Bunt Stuff (18) vs Sit On My Base (9)",
+            "allDay": false,
+            "start": "2024-07-25T18:45:00",
+            "end": "2024-07-25T19:45:00",
+            "event_type": "LeagueGame",
+            "event_program": "Summer '24 Co-Ed 10v10 Kickball",
+            "event_season": "",
+            "event_category": "4226",
+            "event_teams": [
+                36645,
+                36336
+            ],
+            "resourceIds": [
+                "L4635"
+            ],
+            "color": "#FFA500",
+            "textColor": "#000000",
+            "contents": "<p>Season - <b>Summer '24 Co-Ed 10v10 Kickball</b></p><p>Division - <b>Summer '24 Thursdays - Summer '24 Co-Ed 10v10 Kickball</b></p><p>Location - <b>Mosswood Park Field 3</b></p>"
+        },
+        {
+            "id": 433511,
+            "title": "The Untouchaballs (5) vs Big Kick Energy (10)",
+            "allDay": false,
+            "start": "2024-07-25T20:00:00",
+            "end": "2024-07-25T21:00:00",
+            "event_type": "LeagueGame",
+            "event_program": "Summer '24 Co-Ed 10v10 Kickball",
+            "event_season": "",
+            "event_category": "4226",
+            "event_teams": [
+                36338,
+                36337
+            ],
+            "resourceIds": [
+                "L4602"
+            ],
+            "color": "#FFA500",
+            "textColor": "#000000",
+            "contents": "<p>Season - <b>Summer '24 Co-Ed 10v10 Kickball</b></p><p>Division - <b>Summer '24 Thursdays - Summer '24 Co-Ed 10v10 Kickball</b></p><p>Location - <b>Mosswood Park Field 1</b></p>"
+        },
+        {
+            "id": 433512,
+            "title": "Side Pitches (2) vs Family Meeting (8)",
+            "allDay": false,
+            "start": "2024-07-25T20:00:00",
+            "end": "2024-07-25T21:00:00",
+            "event_type": "LeagueGame",
+            "event_program": "Summer '24 Co-Ed 10v10 Kickball",
+            "event_season": "",
+            "event_category": "4226",
+            "event_teams": [
+                36348,
+                36347
+            ],
+            "resourceIds": [
+                "L4634"
+            ],
+            "color": "#FFA500",
+            "textColor": "#000000",
+            "contents": "<p>Season - <b>Summer '24 Co-Ed 10v10 Kickball</b></p><p>Division - <b>Summer '24 Thursdays - Summer '24 Co-Ed 10v10 Kickball</b></p><p>Location - <b>Mosswood Park Field 2</b></p>"
+        },
+        {
+            "id": 433508,
+            "title": "Wasted Potential (3) vs Live M\u00e1swood (1)",
+            "allDay": false,
+            "start": "2024-07-25T18:45:00",
+            "end": "2024-07-25T19:45:00",
+            "event_type": "LeagueGame",
+            "event_program": "Summer '24 Co-Ed 10v10 Kickball",
+            "event_season": "",
+            "event_category": "4226",
+            "event_teams": [
+                36428,
+                36334
+            ],
+            "resourceIds": [
+                "L4602"
+            ],
+            "color": "#FFA500",
+            "textColor": "#000000",
+            "contents": "<p>Season - <b>Summer '24 Co-Ed 10v10 Kickball</b></p><p>Division - <b>Summer '24 Thursdays - Summer '24 Co-Ed 10v10 Kickball</b></p><p>Location - <b>Mosswood Park Field 1</b></p>"
+        }
+    ]
+}
