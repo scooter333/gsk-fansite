@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'customFont';
+  src: url('fonts/comic-sans.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/comic-sans.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+
 body {
    background-color: beige;
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "customFont", sans-serif;
 }
 
 h1 {
