@@ -1,3 +1,13 @@
+function getWidth() {
+  return Math.max(
+    document.body.scrollWidth,
+    document.documentElement.scrollWidth,
+    document.body.offsetWidth,
+    document.documentElement.offsetWidth,
+    document.documentElement.clientWidth
+  );
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     fetch('emptyStanding.json')
         .then(response => response.json())
@@ -28,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const events = data2.events
                 for (event of events) {
                     const title = event.title
-                    console.log("test" + event.start)
+                    console.log(getWidth())
                     let start = new Date(event.start);
                     let realDateObject = new Date(start.value);
                     console.log(start.toLocaleString('en-US', { timeZone: 'PST' }))
@@ -77,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const tableElement = document.createElement("table");
                 tableElement.className = "standings"
                 const tblBody = document.createElement("tbody");
-
+                const ftSize = getWidth() > 500 ? "16px" : "12px"
                 const headerRow = document.createElement("tr");
                 const headers = ["TEAM", "WINS", "LOSSES", "TIES*", "POINT DIFF", "POINTS SCORED", "POINTS ALLOWED"]
                 for (header of headers) {
@@ -88,7 +98,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     cell.appendChild(bold);
                     cell.style.width ='200px';
                     cell.style.height ='50px';
+                    headerRow.style.fontSize = ftSize
                     headerRow.appendChild(cell);
+                    
                 }
                 tblBody.appendChild(headerRow);
 
@@ -135,6 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const paCellText = document.createTextNode(team.pa);
                     paCell.appendChild(paCellText);
                     teamRow.appendChild(paCell);
+                    teamRow.style.fontSize = ftSize
                     tblBody.appendChild(teamRow);
                 }
                 // put the <tbody> in the <table>
@@ -154,7 +167,6 @@ document.addEventListener("DOMContentLoaded", function () {
             };
 
             exampleSocket.onopen = (event) => {
-                console.log("we are open")
                 exampleSocket.send(message)
             };
 
