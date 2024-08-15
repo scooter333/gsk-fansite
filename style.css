@@ -1,6 +1,6 @@
 body {
    background-color: beige;
-   font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 h1 {
@@ -36,11 +36,13 @@ h2 {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  max-width: 980px;
   text-align: center;
-   display: block;
+  display: block;
   margin-left: auto;
+  min-width: 500px;
+  max-width: 980px;
   margin-right: auto;
+  font-size: 14px;
 }
 
 .bad {
