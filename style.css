@@ -29,6 +29,14 @@ h2 {
 }
 
 .logo {
+   width: 100%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.gif {
    width: auto;
    height: auto;
    display: block;
