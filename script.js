@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 dataDisplay.appendChild(tableElement);
                 tableElement.setAttribute("border", "2");
                 const discElement = document.createElement("strong");
-                discElement.textContent = "* Note: weeks are marked as a 0 to 0 tie after being played before scores are set.";
+                discElement.textContent = "* Note: immediatly after games are played they are listed as a 0-0 Tie until updated on the official site.";
                 const loading = document.getElementById("loading");
                 loading.remove()
                 dataDisplay.appendChild(document.createElement("br"));
