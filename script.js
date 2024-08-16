@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     teamRow.appendChild(lossCell);
 
                     const tieCell = document.createElement("td");
-                    const tieCellText = document.createTextNode("*" + team.tie.toString());
+                    const tieCellText = document.createTextNode(team.tie.toString() + "*");
                     tieCell.appendChild(tieCellText);
                     teamRow.appendChild(tieCell);
 
